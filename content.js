@@ -126,6 +126,7 @@ function replaceText(v) {
     "ぴゃ": "ピャ",
     "ぴゅ": "ピュ",
     "ぴょ": "ピョ",
+    "っ": "ッ",
   }
   const re = new RegExp(Object.keys(char_map).join("|"), "g"); // setup the character search & replace 
 
